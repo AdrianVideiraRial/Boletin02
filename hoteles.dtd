@@ -1,0 +1,15 @@
+<!ELEMENT Ficha (Hotel)>
+<!ELEMENT Hotel (telefono,direccion,numero,ciudad,pais,estrellas,descripcion,habitaciones)>
+<!ATTLIST Hotel nombre CDATA #REQUIRED>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT estrellas (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT habitaciones (simples,dobles,triples,suites)>
+<!ELEMENT simples (#PCDATA)>
+<!ELEMENT dobles (#PCDATA)>
+<!ELEMENT triples (#PCDATA)>
+<!ELEMENT suites (#PCDATA)>

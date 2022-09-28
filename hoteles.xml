@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ficha SYSTEM "hoteles.dtd">
+<Ficha>
+    <Hotel nombre="Hotel Hilton">
+        <telefono>665541221</telefono>
+        <direccion>Avenida Gran Via</direccion><numero> 45 </numero>
+        <ciudad>Madrid</ciudad>
+        <pais>España</pais>
+        <estrellas>5</estrellas>
+        <descripcion>Hotel situado en el centro de la ciudad con camas confortables y amplias</descripcion>
+        <habitaciones>
+            <simples>20</simples>
+            <dobles>45</dobles>
+            <triples>10</triples>
+            <suites>10</suites>
+        </habitaciones>
+    </Hotel>
+</Ficha>
+
 <!-- Completar este documento para registrar hoteles,
     donde tengas nombre, teléfono, dirección(calle y número),
     ciudad, país, numero de estrellas, descripción del hotel,
